@@ -1,10 +1,10 @@
 {
-  "name": "react-test",
+  "name": "react-app",
   "version": "1.0.0",
-  "description": "react",
+  "description": "My first react start",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/daisty/CreatMyReact/issues"
   },
-  "homepage": "https://github.com/daisty/CreatMyReact#readme"
+  "homepage": "https://github.com/daisty/CreatMyReact#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
 }
